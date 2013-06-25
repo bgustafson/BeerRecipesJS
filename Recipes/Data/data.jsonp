@@ -1,0 +1,134 @@
+[
+{
+        "Id": 2,
+        "DateAdded": "November 7, 2012 3:00pm",
+        "Author": "Brian",
+        "Rating": ".9",
+        "Name": "Fake Pale Ale",
+        "Style": "Pale Ale",
+        "Description":"Test Beer",
+        "PrepTime":"3 hours",
+        "Cost":"50",
+        "Primary":"10",
+        "Secondary":"20",
+        "MashType": "All Grain",
+        "ingredients" : [
+                {
+                        "Name": "Rahr 2-Row",
+                        "Amount": 4,
+                        "Unit": "lbs",
+                        "IngredientId": 1,     
+                        "Recipe_Id": 2
+                },
+                {
+                        "Name": "Hops",
+                        "Amount": 1,
+                        "Unit": "package",
+                        "IngredientId": 2,     
+                        "Recipe_Id": 2
+                }
+        ],
+        "steps" : [
+                {
+                        "StepId": 3,
+                        "Description": "Brought 2.75 gallon of filtered water to boil, added malt extract, brought back to boil, added hops and yeast nutrients, boiled for 15 minutes, removed from heat. Chilled in ice water bath to 70 degrees. Dumped apple juice and amber ale wort into a primary fermenter together, added yeast and aerated.",
+                        "Num": 1,
+                        "Recipe_Id": 2
+                },
+                {
+                        "StepId": 4,
+                        "Description": "I'll give this 2 weeks in primary (or more depending on gravity readings) and then keg and force carb. I am thinking of using the remaining 0.40 ounces of hops to dry hop...maybe.",
+                        "Num": 2,
+                        "Recipe_Id": 2
+                }
+        ]
+},
+{
+        "Id": 3,
+        "DateAdded": "November 10, 2012 3:00pm",
+        "Author": "Brian",
+        "Rating": "1.9",
+        "Name": "Fake Stout",
+        "Style": "Stout",
+        "Description":"Test Beer",
+        "PrepTime":"10 hours",
+        "Cost":"60",
+        "Primary":"10",
+        "Secondary":"20",
+        "MashType": "Extract",
+        "ingredients" : [
+                {
+                        "Name": "Rahr 2-Row",
+                        "Amount": 4,
+                        "Unit": "lbs",
+                        "IngredientId": 5,     
+                        "Recipe_Id": 3
+                },
+                {
+                        "Name": "Hops",
+                        "Amount": 1,
+                        "Unit": "package",
+                        "IngredientId": 6,     
+                        "Recipe_Id": 3
+                }
+        ],
+        "steps" : [
+                {
+                        "StepId": 5,
+                        "Description": "Brought 2.75 gallon of filtered water to boil, added malt extract, brought back to boil, added hops and yeast nutrients, boiled for 15 minutes, removed from heat. Chilled in ice water bath to 70 degrees. Dumped apple juice and amber ale wort into a primary fermenter together, added yeast and aerated.",
+                        "Num": 1,
+                        "Recipe_Id": 3
+                },
+                {
+                        "StepId": 6,
+                        "Description": "I'll give this 2 weeks in primary (or more depending on gravity readings) and then keg and force carb. I am thinking of using the remaining 0.40 ounces of hops to dry hop...maybe.",
+                        "Num": 2,
+                        "Recipe_Id": 3
+                }
+        ]
+},
+{
+        "Id": 4,
+        "DateAdded": "November 10, 2012 3:00pm",
+        "Author": "Brian",
+        "Rating": "4.9",
+        "Name": "George Washington Amber Ale",
+        "Style": "Amber",
+        "Description":"Test Beer",
+        "PrepTime":"10 hours",
+        "Cost":"60",
+        "Primary":"10",
+        "Secondary":"20",
+        "MashType": "Extract",
+        "ingredients" : [
+                {
+                        "Name": "Rahr 2-Row",
+                        "Amount": 4,
+                        "Unit": "lbs",
+                        "IngredientId": 8,     
+                        "Recipe_Id": 4
+                },
+                {
+                        "Name": "Hops",
+                        "Amount": 1,
+                        "Unit": "package",
+                        "IngredientId": 6,     
+                        "Recipe_Id": 4
+                }
+        ],
+        "steps" : [
+                {
+                        "StepId": 11,
+                        "Description": "Brought 2.75 gallon of filtered water to boil, added malt extract, brought back to boil, added hops and yeast nutrients, boiled for 15 minutes, removed from heat. Chilled in ice water bath to 70 degrees. Dumped apple juice and amber ale wort into a primary fermenter together, added yeast and aerated.",
+                        "Num": 1,
+                        "Recipe_Id": 4
+                },
+                {
+                        "StepId": 10,
+                        "Description": "I'll give this 2 weeks in primary (or more depending on gravity readings) and then keg and force carb. I am thinking of using the remaining 0.40 ounces of hops to dry hop...maybe.",
+                        "Num": 2,
+                        "Recipe_Id": 4
+                }
+        ]
+}
+]

@@ -1,0 +1,125 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/b/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Beercolpedia</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/style.css">
+  <!-- end CSS-->
+
+
+  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+
+<body>
+
+  <div id="container">
+    <header>
+      <div class="content-wrapper">
+        <div class="float-left">                   
+          <p class="site-title"> <img src="../Images/Beer_mug.gif"/> <a href="Index.html">Beerclopedia</a></p>
+        </div>
+        <div class="float-right">
+            <nav>
+                <ul id="menu">
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="../Recipes/Index.html">Recipes</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+      </div>
+    </header>
+    <div id="body">
+      <section class="content-wrapper main-content clear-fix">
+        <hgroup class="title">
+          <h1>About.</h1>
+          <h2>Beerclopedia is a dictionary of user submitted beer recipes and other information related to homebrewing.</h2>
+        </hgroup>
+
+        <article>
+          <p>
+            The home page is the default landing page from which you can navigate to other locations.  The About page and the Contacts page are both working.
+            The side panel on the first page with the details button will take you directly to the details page for that recipe of the month.
+            Clicking on recipes brings you to the recipe index page.  From there, there are links to get details, review, find and submit new recipes.
+        
+          </p>
+    
+          <p>
+            Extensions to this application would be to get the list from the home page working so that all that functionality exists.  And then the rating 
+            systems needs to be defined.  This would likely be done by creating a rating table related to the recipe so that ther can be many reviews for 
+            each recipe.  This will also mean that the rating field currently stored in the recipe table should either be removed and calculated on the fly, 
+            or a trigger should be created that keeps that field up to date with the average rating for that recipe.
+          </p>
+
+          <p>
+            This is a pure JavaScript application built using Aptana Studio 3.  This application is best viewed in Chrome or 
+            Firefox but will work in IE.  This application is being submitted as a homework assignment.  There is a companion application that is built 
+            using ASP.NET MVC 4 and Entity Framework 4 that shares a similar UI and framework.  Ultimately the two applications would likely share the same data sources.
+
+          </p>
+
+          <p>
+            Use the Home page to get general information about the website and to navigate to other pages.
+          </p>
+
+          <p>
+            Use the Recipe page to find, submit and review beer recipes.
+          </p>
+
+          <p>
+              Use the contacts page to send an email or find the address or phone number of the site administrator.
+          </p>
+        </article>
+        
+        <aside>
+            <h3>BOTM</h3>
+            <p>
+                Every month a new recipe is selected as Beer Of The Month.  The recipe is chosen to highlight the season or availability of in-season ingredients.
+            </p>
+            <h6>George Washington Apple Amber Ale</h6>
+            <a href="../Recipes/Details.html?id=4">Details</a>
+            <ul>
+                <li>2.5 gallons Mott's Natural Apple Juice</li>
+                <li>3 pounds Briess Sparkling Amber Dry Malt Extract</li>
+                <li>0.60 ounces Warrior Hops (17.2AA)</li>
+                <li>Yeast Nutrient</li>
+                <li>White Labs English Ale Yeast Cake</li>
+            </ul>
+        </aside>      
+      </section>
+    </div>
+    <footer>
+      <div class="content-wrapper">
+        <div class="float-left">
+          <p>&copy; 2013 - ShipCompliant Homework Part 2</p>
+        </div>
+      </div>
+    </footer>
+  </div> 
+
+
+  <!-- scripts -->
+  <script defer src="js/plugins.js"></script>
+  <script defer src="js/script.js"></script>
+  <!-- end scripts-->
+
+</body>
+</html>
